@@ -1,0 +1,56 @@
+body
+{
+    background-color: black;
+    text-align: center;
+}
+
+h1
+{
+
+	color:#33FFC6 ;
+	font-family: verdana;
+	font-size: 2em;
+}
+div
+{
+    border: 2px solid #33FFC6;
+    border-radius: 26px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 35%;
+    padding: 3%;
+
+}
+
+button
+{
+
+	background-color: #33FFC6;
+	text-align: center;
+	width: 300px;
+	padding: 15px 32px;
+	border-radius: 26px;
+	margin-top:3px;
+	border: 2px solid #33FFC6;
+
+
+}
+button:hover
+{
+
+	color: #33FFC6;
+	background-color: black;
+	border: 2px solid #33FFC6 ;
+}
+input
+{
+   background-color: black;
+   border: 2px solid #33FFC6;
+   border-radius: 26px;
+   width: 50%;
+   margin-left: 23%
+   margin-right: 35%;
+   padding: 3%;
+   color: #33FFC6;
+   margin-bottom: 16px;
+}

@@ -1,0 +1,37 @@
+body{
+    background-color: #B9003F ;
+}
+h1{
+   color: gold
+}
+
+div{
+    height: 50px;
+    width: 30px;
+    float: left;
+    margin-left: 20px;
+    margin: 10px;
+}
+
+.bloc1{
+    background-color: #7500FF;
+     width: 195px;
+    height: 95px;
+}
+.bloc2{
+    background-color: #DB00FF;
+     width: 195px;
+    height: 95px;
+}
+.bloc3{
+    background-color: #00A8FF ;
+    float: left;
+    clear: both;
+     width: 195px;
+    height: 95px;
+}
+
+img{
+    width: 195px;
+    height: 95px;
+}

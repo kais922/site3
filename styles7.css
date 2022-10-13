@@ -1,0 +1,20 @@
+button
+{
+
+	background-color: red;
+	text-align: center;
+	width: 300px;
+	padding: 15px 32px;
+	border-radius: 26px;
+	margin-top:3px;
+	border: 2px solid white;
+
+
+}
+button:hover
+{
+
+	color: red;
+	background-color: black;
+	border: 2px solid red ;
+}

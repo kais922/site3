@@ -1,0 +1,31 @@
+body{
+    background-color: #B9003F ;
+}
+
+h1{
+    color:#FFC300  ;
+}
+
+.titre1{
+    color:#FFC300 ;
+}
+
+.titre2{
+    color:#FFC300 ;
+}
+
+.para1{
+    border: black 3px solid;
+    background-color: gold;
+}
+
+.para2{
+    border: black 3px solid;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+.container{
+    background-color: #B9003F;
+    padding: 10px;
+}
