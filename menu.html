@@ -1,21 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="styles4.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsive déroulant HTML / CSS</title>
+    <link rel="stylesheet" href="menu-deroulant-responsive.css">
 </head>
 <body>
-<h1>Menu avec bouttons en css</h1>
-<div>
-	<button onclick="window.location.href='formulaire.html'">Ajouter un organisme</button>
-    <button>Supprimer un organisme</button>
-    <button onclick="window.location.href='menu1.html'">Modifier un organisme</button>
-    <button onclick="window.location.href='menu2.html'">>Rechercher un organisme</button>
-    <button>Lister un organisme</button>
+    <nav>
+        <label for="menu-mobile" class="menu-mobile">Menu</label>
+        <input type="checkbox" id="menu-mobile" role="button">
+        <ul>
+             <li class="menu-html"><a href="#">HTML</a>
+            <ul class="submenu">
+                <li><a href="index.html">Cours HTML et CSS</a></li>
+                <li><a href="">Eléments HTML</a></li>
+                <li><a href="tableau2.html">Attributs HTML</a></li>
+                <li><a href="Projet_css.html">Exercices</a></li>
+            </ul>
+            </li>
+            <li class="menu-css"><a href="#">CSS</a>
+                <ul class="submenu">
+                    <li><a href="#">Cours HTML et CSS</a></li>
+                    <li><a href="#">Propriétés CSS</a></li>
+                    <li><a href="#">Sélecteurs CSS</a></li>
+                    <li><a href="#">Exercices</a></li>
+                </ul>
+            </li>
+            <li class="menu-css"><a href="#">JavaScript</a>
+                <ul class="submenu">
+                    <li><a href="#">Cours JavaScript</a></li>
+                    <li><a href="#">Fonctions JavaScript</a></li>
+                    <li><a href="#">Le DOM</a></li>
+                    <li><a href="#">Exercices</a></li>
 
-
-</div>
-
-
+                </ul>
+            </li>
+            <li class="menu-contact"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
 </body>
 </html>
